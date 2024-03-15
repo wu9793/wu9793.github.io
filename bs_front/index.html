@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mix</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-sm sticky-top mx-auto" style="background-color: #fff;">
+        <div class="container-fluid d-flex">
+            <button class="btn " type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+                <i class="fa-solid fa-list-ul"></i>
+            </button>
+            <a class="navbar-brand justify-content-center" href="#">
+                <img src="./images/icon.jpg" style="width: 50px; height: 50px;" alt="">
+            </a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#card">Card</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tab">Tab</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#collapse">Collapse</a>
+                    </li>
+                    <!-- 下拉式選單 -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            About
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#about">About Us</a></li>
+                            <li><a class="dropdown-item" href="#">Another</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar end -->
+    <div class="conteiner-fluid">
+        <div class="headimg">
+            <p>Your Go-to Spot for <br> Delicious Eats & Coffee</p>
+        </div>
+        <div class="row" style="height: 80vh;">
+            <div class="col-6 d-flex flex-column justify-content-center align-items-center" style="padding: 0;">
+                <div class="title text-start">Eat.</div>
+                <p class="fs-4">Breakfast, Lunch and Artisanal Pastries</p>
+                <p class="w-75 mt-3 item">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et vero adipisci quo expedita cum cupiditate vitae facere itaque ratione incidunt! Modi ipsa amet sed quos ipsum earum, facilis illo illum!</p>
+                <a href="index.html"><button type="button" class="btn btn-outline-dark p-3 px-5" style="border-radius: 0;">See more</button></a>
+            </div>
+            <div class="col-6" style="padding: 0;">
+                <img src="./images/04.jpg" class="w-100 object-fit-cover" style="height: 100%;"></div>
+        </div>
+        <div class="row" style="height: 80vh;">
+            <div class="col-6" style="padding: 0;">
+                <img src="./images/03.jpg" class="w-100 object-fit-cover"  style="height: 100%;"></div>
+                <div class="col-6 d-flex flex-column align-items-center justify-content-center" style="padding: 0;">
+                    <div class="title">Drink.</div>
+                    <p class="fs-4">The Freshest Cup in Town</p>
+                    <p class="w-75 mt-3 item">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et vero adipisci quo expedita cum cupiditate vitae facere itaque ratione incidunt! Modi ipsa amet sed quos ipsum earum, facilis illo illum!</p>
+                    <a href="index.html"><button type="button" class="btn btn-outline-dark p-3 px-5" style="border-radius: 0;">See more</button></a>
+                </div>
+        </div>
+        <div class="row" style="height: 80vh;">
+            <div class="col-6 d-flex flex-column align-items-center justify-content-center" style="padding: 0;">
+                <div class="title">Enjoy.</div>                
+                <p class="fs-4">Make Yourself at Home</p>
+                <p class="w-75 mt-3 item">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et vero adipisci quo expedita cum cupiditate vitae facere itaque ratione incidunt! Modi ipsa amet sed quos ipsum earum, facilis illo illum!</p>
+                <a href="index.html"><button type="button" class="btn btn-outline-dark p-3 px-5" style="border-radius: 0;">See more</button></a>
+            </div>
+            <div class="col-6" style="padding: 0;">
+                <img src="./images/05.jpg" class="w-100 object-fit-cover"></div>
+        </div>
+    </div>
+
+    <div class="container m-auto">
+        <hr id="card">
+        <br>
+        <br>
+        <!-- card -->
+        <div class="row m-auto">
+            <div class="col-4 d-flex">
+                <div class="card bg-dark text-light rounded-4 p-2 pb-0" style="width: 30rem;">
+                    <img src="./images/04.jpg" class="card-img-top rounded-4" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title text-center">
+                            title
+                        </h3>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 d-flex">
+                <div class="card bg-dark text-light rounded-4 p-2 pb-0" style="width: 30rem;">
+                    <img src="./images/02.jpg" class="card-img-top rounded-4" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title text-center">
+                            title
+                        </h3>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            thecard's content.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 d-flex">
+                <div class="card bg-dark text-light rounded-4 p-2 pb-0" style="width: 30rem;">
+                    <img src="./images/03.jpg" class="card-img-top rounded-4" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title text-center">
+                            title
+                        </h3>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="row m-auto">
+            <div class="col-4 d-flex">
+                <div class="card bg-dark text-light rounded-4 p-2 pb-0" style="width: 30rem;">
+                    <img src="./images/08.jpg" class="card-img-top rounded-4 rounded-4" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title text-center">
+                            title
+                        </h3>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 d-flex">
+                <div class="card bg-dark text-light rounded-4 p-2 pb-0" style="width: 30rem;">
+                    <img src="./images/09.jpg" class="card-img-top rounded-4" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title text-center">
+                            title
+                        </h3>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            thecard's content.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 d-flex">
+                <div class="card bg-dark text-light rounded-4 p-2 pb-0" style="width: 30rem;">
+                    <img src="./images/10.jpg" class="card-img-top rounded-4" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title text-center">
+                            title
+                        </h3>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- card end -->
+        <br>
+        <br>
+        <hr id="tab">
+        <br>
+        <br>
+        <!-- tab -->
+        <div class="row m-auto">
+            <div class="container-fluid mt-3 col">
+                <h2>Title</h2>
+                <br>
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-bs-toggle="tab" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" href="#menu1">List</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" href="#menu2">Menu 2</a>
+                    </li>
+                </ul>
+
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div id="home" class="container tab-pane active"><br>
+                        <h3>HOME</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque vitae consequuntur, fugiat
+                            possimus in, molestiae deleniti totam quod at recusandae officiis numquam assumenda ducimus
+                            illo, eveniet nostrum maiores laborum. Voluptates obcaecati quis aut laboriosam eum voluptas
+                            dignissimos veniam odit facilis tempora possimus dolore quaerat harum modi, delectus maiores
+                            exercitationem dicta sit! Expedita impedit in veniam. Cupiditate commodi numquam libero eum.
+                        </p>
+                    </div>
+                    <div id="menu1" class="container tab-pane fade"><br>
+                        <h3>List</h3>
+                        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum aperiam ipsa nostrum alias
+                            sunt consequuntur vero accusantium soluta, rem commodi expedita ea! Dolores hic, saepe
+                            dolore cupiditate repellat tempore sint sapiente asperiores! Sapiente molestias odit vero
+                            architecto ea, corporis nesciunt assumenda a officiis commodi necessitatibus dicta
+                            asperiores recusandae in qui sit pariatur eius sunt odio, magnam placeat nam accusantium.
+                            Voluptatem, sit dolor reiciendis est aperiam nesciunt quos debitis. Quas, minima! Labore
+                            dolorum doloremque amet, corrupti id voluptate! Blanditiis fugit minima obcaecati laboriosam
+                            in vero delectus reiciendis officiis molestias repellendus consequuntur sapiente, rerum ipsa
+                            placeat odit! Mollitia perferendis pariatur dignissimos architecto, vero maxime assumenda
+                            officia corrupti voluptates ut cupiditate vel accusamus saepe blanditiis, iste laudantium
+                            deserunt. Dicta, quis exercitationem? Nulla debitis delectus eum perferendis distinctio,
+                            dolorem ab dolor minima voluptate rem. Asperiores accusantium placeat explicabo veniam natus
+                            voluptatem, commodi libero aperiam amet impedit nemo quos architecto nihil laborum atque
+                            delectus consequatur voluptate, pariatur a! Asperiores ab recusandae unde impedit a
+
+                        </p>
+                    </div>
+                    <div id="menu2" class="container tab-pane fade"><br>
+                        <h3>Menu 2</h3>
+                        <p>
+                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                            laudantium,totam rem aperiam.
+                        </p>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14457.923628323224!2d121.4128378!3d25.0516845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1szh-TW!2stw!4v1701246798267!5m2!1szh-TW!2stw"
+                            class="w-100" style="height: 400px; border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- tab end -->
+        <br>
+        <br>
+        <hr id="list-group">
+        <br>
+        <br>
+        <!-- list group -->
+        <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+                <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">List group item heading</h5>
+                    <small>3 days ago</small>
+                </div>
+                <p class="mb-1">Some placeholder content in a paragraph.</p>
+                <small>And some small print.</small>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+                <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">List group item heading</h5>
+                    <small class="text-body-secondary">3 days ago</small>
+                </div>
+                <p class="mb-1">Some placeholder content in a paragraph.</p>
+                <small class="text-body-secondary">And some muted small print.</small>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+                <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">List group item heading</h5>
+                    <small class="text-body-secondary">3 days ago</small>
+                </div>
+                <p class="mb-1">Some placeholder content in a paragraph.</p>
+                <small class="text-body-secondary">And some muted small print.</small>
+            </a>
+        </div>
+        <!-- list-group end -->
+        <br>
+        <br>
+        <hr id="about">
+        <br>
+        <br>
+        <!-- about card -->
+        <div class="row d-flex">
+            <div class="card text-center border-0 rounded-0 shadow mt-5 col-3 mx-auto" style="width: 18rem;">
+                <div
+                    class="card-icon position-absolute start-50 translate-middle text-light rounded-circle p-3 bg-dark">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="50" width="50" fill="currentColor"
+                        viewBox="0 0 640 512">
+                        <path
+                            d="M323.4 85.2l-96.8 78.4c-16.1 13-19.2 36.4-7 53.1c12.9 17.8 38 21.3 55.3 7.8l99.3-77.2c7-5.4 17-4.2 22.5 2.8s4.2 17-2.8 22.5l-20.9 16.2L512 316.8V128h-.7l-3.9-2.5L434.8 79c-15.3-9.8-33.2-15-51.4-15c-21.8 0-43 7.5-60 21.2zm22.8 124.4l-51.7 40.2C263 274.4 217.3 268 193.7 235.6c-22.2-30.5-16.6-73.1 12.7-96.8l83.2-67.3c-11.6-4.9-24.1-7.4-36.8-7.4C234 64 215.7 69.6 200 80l-72 48V352h28.2l91.4 83.4c19.6 17.9 49.9 16.5 67.8-3.1c5.5-6.1 9.2-13.2 11.1-20.6l17 15.6c19.5 17.9 49.9 16.6 67.8-2.9c4.5-4.9 7.8-10.6 9.9-16.5c19.4 13 45.8 10.3 62.1-7.5c17.9-19.5 16.6-49.9-2.9-67.8l-134.2-123zM16 128c-8.8 0-16 7.2-16 16V352c0 17.7 14.3 32 32 32H64c17.7 0 32-14.3 32-32V128H16zM48 320a16 16 0 1 1 0 32 16 16 0 1 1 0-32zM544 128V352c0 17.7 14.3 32 32 32h32c17.7 0 32-14.3 32-32V144c0-8.8-7.2-16-16-16H544zm32 208a16 16 0 1 1 32 0 16 16 0 1 1 -32 0z" />
+                    </svg>
+                </div>
+                <div class="card-body mt-5">
+                    <h5 class="card-title pt-2 fw-bold">Friend</h5>
+                    <p class="card-text  py-2">Some quick example text to build on the card title and make up the bulk
+                        of
+                        the
+                        card's
+                        content.</p>
+                    <div class="text-secondary">
+                        <hr>
+                    </div>
+                    <a href="#" class="text-dark text-decoration-none fw-bold d-block py-2"
+                        style="transition: transform 0.2s ease;">Learn More</a>
+                </div>
+            </div>
+            <div class="card text-center border-0 rounded-0 shadow mt-5 col-3 mx-auto" style="width: 18rem;">
+                <div
+                    class="card-icon position-absolute start-50 translate-middle text-light rounded-circle p-3 bg-dark">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="50" width="50" fill="currentColor"
+                        viewBox="0 0 512 512">
+                        <path
+                            d="M0 96C0 60.7 28.7 32 64 32H448c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96zM323.8 202.5c-4.5-6.6-11.9-10.5-19.8-10.5s-15.4 3.9-19.8 10.5l-87 127.6L170.7 297c-4.6-5.7-11.5-9-18.7-9s-14.2 3.3-18.7 9l-64 80c-5.8 7.2-6.9 17.1-2.9 25.4s12.4 13.6 21.6 13.6h96 32H424c8.9 0 17.1-4.9 21.2-12.8s3.6-17.4-1.4-24.7l-120-176zM112 192a48 48 0 1 0 0-96 48 48 0 1 0 0 96z" />
+                    </svg>
+                </div>
+                <div class="card-body mt-5">
+                    <h5 class="card-title pt-2 fw-bold">Image</h5>
+                    <p class="card-text  py-2">Some quick example text to build on the card title and make up the bulk
+                        of
+                        the
+                        card's
+                        content.</p>
+                    <div class="text-secondary">
+                        <hr>
+                    </div>
+                    <a href="#" class="text-dark text-decoration-none fw-bold d-block py-2">Learn More</a>
+                </div>
+            </div>
+            <div class="card text-center border-0 rounded-0 shadow mt-5 col-3 mx-auto" style="width: 18rem;">
+                <div
+                    class="card-icon position-absolute start-50 translate-middle text-light rounded-circle p-3 bg-dark">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="50" width="50" fill="currentColor"
+                        viewBox="0 0 384 512">
+                        <path
+                            d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z" />
+                    </svg>
+                </div>
+                <div class="card-body mt-5">
+                    <h5 class="card-title pt-2 fw-bold">Location</h5>
+                    <p class="card-text  py-2">Some quick example text to build on the card title and make up the bulk
+                        of
+                        the
+                        card's
+                        content.</p>
+                    <div class="text-secondary">
+                        <hr>
+                    </div>
+                    <a href="#" class="text-dark text-decoration-none fw-bold d-block py-2">Learn More</a>
+                </div>
+            </div>
+            <div class="card text-center border-0 rounded-0 shadow mt-5 col-3 mx-auto" style="width: 18rem;">
+                <div
+                    class="card-icon position-absolute start-50 translate-middle text-light rounded-circle p-3 bg-dark">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="50" width="50" fill="currentColor"
+                        viewBox="0 0 512 512">
+                        <path
+                            d="M123.6 391.3c12.9-9.4 29.6-11.8 44.6-6.4c26.5 9.6 56.2 15.1 87.8 15.1c124.7 0 208-80.5 208-160s-83.3-160-208-160S48 160.5 48 240c0 32 12.4 62.8 35.7 89.2c8.6 9.7 12.8 22.5 11.8 35.5c-1.4 18.1-5.7 34.7-11.3 49.4c17-7.9 31.1-16.7 39.4-22.7zM21.2 431.9c1.8-2.7 3.5-5.4 5.1-8.1c10-16.6 19.5-38.4 21.4-62.9C17.7 326.8 0 285.1 0 240C0 125.1 114.6 32 256 32s256 93.1 256 208s-114.6 208-256 208c-37.1 0-72.3-6.4-104.1-17.9c-11.9 8.7-31.3 20.6-54.3 30.6c-15.1 6.6-32.3 12.6-50.1 16.1c-.8 .2-1.6 .3-2.4 .5c-4.4 .8-8.7 1.5-13.2 1.9c-.2 0-.5 .1-.7 .1c-5.1 .5-10.2 .8-15.3 .8c-6.5 0-12.3-3.9-14.8-9.9c-2.5-6-1.1-12.8 3.4-17.4c4.1-4.2 7.8-8.7 11.3-13.5c1.7-2.3 3.3-4.6 4.8-6.9c.1-.2 .2-.3 .3-.5z" />
+                    </svg>
+                </div>
+                <div class="card-body mt-5">
+                    <h5 class="card-title pt-2 fw-bold">Comment</h5>
+                    <p class="card-text  py-2">Some quick example text to build on the card title and make up the bulk
+                        of
+                        the
+                        card's
+                        content.</p>
+                    <div class="text-secondary">
+                        <hr>
+                    </div>
+                    <a href="#" class="text-dark text-decoration-none fw-bold d-block py-2">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <!-- about card end -->
+        <br>
+        <br>
+        <br>
+        <!-- footer -->
+        <div>
+            <p class="text-center mt-2">
+                <i class="fa-solid fa-copyright"></i>
+                2023 Copyright
+            </p>
+        </div>
+        <!-- footer end -->
+
+        <!-- 邊選單 -->
+        <div class="offcanvas offcanvas-end" id="demo">
+            <div class="offcanvas-header">
+                <h2 class="fw-bold mb-5 text-center">Sign up now</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="offcanvas-body">
+                <!-- 2 column grid layout with text inputs for the first and last names -->
+                <div class="row">
+                    <div class="col-6 mb-4">
+                        <div class="form-outline">
+                            <input type="text" id="form3Example1" class="form-control" />
+                            <label class="form-label" for="form3Example1">First name</label>
+                        </div>
+                    </div>
+                    <div class="col-6 mb-4">
+                        <div class="form-outline">
+                            <input type="text" id="form3Example2" class="form-control" />
+                            <label class="form-label" for="form3Example2">Last name</label>
+                        </div>
+                    </div>
+                </div>
+                <!-- Email input -->
+                <div class="form-outline mb-4">
+                    <input type="email" id="form3Example3" class="form-control" />
+                    <label class="form-label" for="form3Example3">Email address</label>
+                </div>
+
+                <!-- Password input -->
+                <div class="form-outline mb-4">
+                    <input type="password" id="form3Example4" class="form-control" />
+                    <label class="form-label" for="form3Example4">Password</label>
+                </div>
+
+                <!-- Checkbox -->
+                <div class="form-check d-flex justify-content-center mb-4">
+                    <input class="form-check-input me-2" type="checkbox" value="" id="form2Example33" checked />
+                    <label class="form-check-label" for="form2Example33">
+                        Subscribe to our newsletter
+                    </label>
+                </div>
+
+                <!-- Submit button -->
+                <div class="d-grid">
+                    <button type="submit" class="btn btn-primary btn-block mb-4">
+                        Sign up
+                    </button>
+                </div>
+                <!-- Register buttons -->
+                <div class="text-center">
+                    <p>or sign up with:</p>
+                    <button type="button" class="btn btn-link btn-floating mx-1">
+                        <i class="fab fa-facebook-f"></i>
+                    </button>
+
+                    <button type="button" class="btn btn-link btn-floating mx-1">
+                        <i class="fab fa-google"></i>
+                    </button>
+
+                    <button type="button" class="btn btn-link btn-floating mx-1">
+                        <i class="fab fa-twitter"></i>
+                    </button>
+
+                    <button type="button" class="btn btn-link btn-floating mx-1">
+                        <i class="fab fa-github"></i>
+                    </button>
+                </div>
+            </div>
+            <!-- 邊選單 end -->
+
+        </div>
+</body>
+
+</html>

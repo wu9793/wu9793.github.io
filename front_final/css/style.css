@@ -1,0 +1,141 @@
+* {
+    font-family: 'Secular One', sans-serif, 微軟正黑體;
+}
+
+.vh-80{
+    height: 80vh;
+}
+
+nav.navbar {
+    transition: 0.5s;
+}
+
+nav.navbar.navbar-gb {
+    background-color: white;
+    box-shadow: 2px 2px 15px rgba(51, 51, 51, 0.8);
+}
+a.navbar-brand svg{
+    transition: 0.5s;
+
+}
+
+.backgroundImg {
+    background-color: #0d1f2dff;
+}
+
+.title{
+    text-align: center;
+    font-size: 8rem;
+    color: #f0ffef;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.side-bar {
+    position: fixed;
+    bottom: 15rem;
+    right: 6rem;
+    font-size: small;
+
+    a{
+        text-decoration: none;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 1rem;
+        /* color: #f0ffef !important; */
+    }
+    
+    a:hover {
+        color: #93f373 !important;
+        border-color: #79e7ff !important;
+    }
+}
+.go {
+    width: 30px;
+    border-radius: 50%;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    position: relative;
+}
+
+.header {
+    position: relative;
+    /* top: -15vh; */
+    width: 100%;
+    height: 100vh;
+    background-color: #0d1f2dff;
+    /* margin: auto; */
+    text-align: center;
+    margin-bottom: -100;
+}
+
+.header img {
+    position: absolute;
+    margin: auto;
+    margin-top: 300px;
+    z-index: 1;
+    /* 將圖像放在最上層 */
+}
+
+.quotes{
+    background-color: #166678;
+
+    .chItem{
+        color: #79e7ff;
+    }
+    .subtitle{
+        font-size: 3rem;
+    }
+}
+
+
+.carousel{
+    position: relative;
+    /* transition: 5s; */
+}
+.carousel-inner{
+    position: relative;
+}
+.carousel-item{
+    position: relative;
+    width: 100%;
+    transition: transform .6s ease-in-out;
+}
+
+.carousel-item img {
+    height: 600px;
+    width: 100%; 
+    object-fit: cover;
+    border-radius: 50px 0 50px 0;
+}
+
+
+.card {
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.imgFluid {
+    object-fit: cover;
+    max-width: 100%;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.wallImg {
+    width: 100%;
+    height: 30vh;
+    background-color: #93f373;
+    background-image: url(../img/14.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.nav-link{
+    color: rgb(200, 200, 200);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
