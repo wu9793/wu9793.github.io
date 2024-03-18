@@ -172,12 +172,11 @@ nav {
         text-decoration: none;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         font-size: 1rem;
-        /* color: #f0ffef !important; */
     }
 
     a:hover {
         color: #c1b6a4 !important;
-        border-color: #9d9da0 !important;
+        /* border-color: #9d9da0 !important; */
     }
 }
 

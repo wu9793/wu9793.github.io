@@ -27,27 +27,27 @@ $(window).scroll(function () {
     }
 
     // GO TOP BTN
-    let colorIN = "rgb(61, 61, 255)";
+    let colorIN = "rgb(19, 18, 18)";
     let colorOUT = "rgb(200, 200, 200)";
     if (scrollTop < scrollAbo - 100) {
-        $('.go').find('a').eq(0).css({ "color": colorIN, "border-bottom": "1px solid black" });
+        $('.go').find('a').eq(0).css({ "color": colorIN, "border-bottom": "1px solid #9d9da0" });
     } else {
-        $('.go').find('a').eq(0).css({ "color": colorOUT, "border-bottom": "0px solid black" });
+        $('.go').find('a').eq(0).css({ "color": colorOUT, "border-bottom": "0px solid #9d9da0" });
     }
     if (scrollTop < scrollPro - 30 && scrollTop > scrollAbo - 30) {
-        $('.go').find('a').eq(1).css({ "color": colorIN, "border-bottom": "1px solid black" });
+        $('.go').find('a').eq(1).css({ "color": colorIN, "border-bottom": "1px solid #9d9da0" });
     } else {
-        $('.go').find('a').eq(1).css({ "color": colorOUT, "border-bottom": "0px solid black" });
+        $('.go').find('a').eq(1).css({ "color": colorOUT, "border-bottom": "0px solid #9d9da0" });
     }
     if (scrollTop < scrollFooter - screenHeight && scrollTop > scrollPro - 30) {
-        $('.go').find('a').eq(2).css({ "color": colorIN, "border-bottom": "1px solid black" });
+        $('.go').find('a').eq(2).css({ "color": colorIN, "border-bottom": "1px solid #9d9da0" });
     } else {
-        $('.go').find('a').eq(2).css({ "color": colorOUT, "border-bottom": "0px solid black" });
+        $('.go').find('a').eq(2).css({ "color": colorOUT, "border-bottom": "0px solid #9d9da0" });
     }
     if (scrollTop > scrollFooter - screenHeight) {
-        $('.go').find('a').eq(3).css({ "color": colorIN, "border-bottom": "1px solid black" });
+        $('.go').find('a').eq(3).css({ "color": colorIN, "border-bottom": "1px solid #9d9da0" });
     } else {
-        $('.go').find('a').eq(3).css({ "color": colorOUT, "border-bottom": "0px solid black" });
+        $('.go').find('a').eq(3).css({ "color": colorOUT, "border-bottom": "0px solid #9d9da0" });
 
     }
 })
