@@ -3,6 +3,7 @@
 *{
     box-sizing: border-box;
     margin: 0;
+    font-family: 'Secular One', sans-serif, 微軟正黑體;
 }
 
 html {
@@ -10,22 +11,14 @@ html {
     scroll-behavior: smooth;
 }
 
-* {
-    font-family: 'Secular One', sans-serif, 微軟正黑體;
-}
-
 @media only screen and (max-width: 576px) {
     html {
         font-size: 12px;
     }
 }
-
-.card {
-    transition: transform 0.2s ease;
-}
-
-.card:hover {
-    transform: scale(1.1);
+.nav-item a:hover{
+    color: #C7B084;
+    transition: 0.5s;
 }
 
 .headimg {
@@ -47,20 +40,56 @@ html {
     font-size: 5rem;
     font-family: "Playfair Display", serif;
     font-weight: 900;
-    color: rgb(250, 250, 250);
+    color: white;
     justify-self: start;
     align-self: start;
     left: 100px;
     top: 150px;
 }
 
+@media only screen and (max-width: 576px) {
+    .headimg p{
+        font-size: 4rem;
+    }
+}
+
 .title{
-    font-size: 3rem;
+    font-size: 4rem;
     font-family: "Playfair Display", serif;
     font-weight: 600;
-    text-align: start;
 }
 
 .item{
     line-height: 2rem;
+}
+
+.about{
+    background-color: rgb(251, 242, 232);
+}
+
+.middleline{
+    border-right: 2px solid rgb(200, 200, 200);
+}
+.footer {
+	/* padding: 50px; */
+	height: 40vh;
+    background-color: #5E6C5B;
+    color: rgb(255, 255, 255);
+    a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+    .ins{
+        padding-left: 150px;
+    }
+}
+.footer a:hover{
+    color: #C7B084;
+    transition: 0.5s;
+}
+
+@media only screen and (max-width: 576px) {
+    .footer .ins{
+        padding-left: 50px;
+    }
 }
